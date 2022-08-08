@@ -1,0 +1,104 @@
+
+.star {
+    animation:example infinite .4s
+   }
+   @keyframes example {
+       0% {background:  #FFDE59;}
+       100% {background:  white;}
+   }
+
+.bg-yellowTS {
+	background: #FFDE59;
+}
+
+.bg-white {
+	background: white !important;
+}
+
+.radius-50 {
+    border-radius: 50px;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+.img-95 {
+    width: 95%;
+}
+
+.img-90 {
+    width: 90%;
+}
+
+.img-80 {
+    width: 80%;
+}
+
+.img-70 {
+    width: 70%;
+}
+
+.img-60 {
+    width: 60%;
+}
+
+.img-50 {
+    width: 50%;
+}
+.img-40 {
+    width: 40%;
+}
+
+.tri_l{
+    width: 0px;
+    height: 0px;
+    border-top: solid 15px transparent;
+    border-left: solid 15px black;
+    border-bottom: solid 15px transparent;
+}
+
+.tri_r{
+    width: 0px;
+    height: 0px;
+    border-top: solid 15px transparent;
+    border-right: solid 15px black;
+    border-bottom: solid 15px transparent;
+}
+
+.bottom{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+}
+
+.botonaccion {
+	background: #FFDE59;
+	border-radius: 50px;
+	border: none;
+    height: 40px;
+}
+
+a .text-btn {
+	text-decoration: none;
+	color: black;
+}
+
+a .text-btn :hover {
+	color: black;
+}
+
+.text-redes {
+	color: #FFDE59;
+	font-size: 15px;
+}
+
+.no-event {
+    pointer-events: none;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+}
