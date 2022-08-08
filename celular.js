@@ -237,42 +237,42 @@ function crearModal(num) {
 	$('.text-comedores').addClass('d-none'); $('.div-comedores').addClass('d-none'); $('.text-camas').addClass('d-none'); $('.div-camas').addClass('d-none');
 	
 	if (num == 1) {
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.png');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.png');
 		cambioBoton = 1;
 
 	} else if (num == 2) {
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.png');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.png');
 		cambioBoton = 2;
 
 	} else if (num == 3) {
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.png');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.png');
 		cambioBoton = 3;
 
 	} else if (num == 4) {
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.png');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.png');
 		cambioBoton = 4;
 
 	} else if (num == 5) {
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.png');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.png');
 		$('.text-normal').addClass('d-none'); $('.div-normal').addClass('d-none');
 		$('.text-camas').removeClass('d-none'); $('.div-camas').removeClass('d-none');
 		
 		cambioBoton = 5;
 
 	} else if (num == 6) {
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.png');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.png');
 		$('.text-normal').addClass('d-none'); $('.div-normal').addClass('d-none');
 	    $('.text-comedores').removeClass('d-none'); $('.div-comedores').removeClass('d-none');
 		cambioBoton = 6;
 
 	} else if (num == 7) {
 		
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.png');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.png');
 		cambioBoton = 7;
 
 	} // #8 son los corbatines que estan en el otro modal creado
 	  else if (num == 9) {
-		$('#img-modal').attr('src', '../assets/img/img' +  num + '.gif');
+		$('#img-modal').attr('src', 'assets/img/img' +  num + '.gif');
 		cambioBoton = 9;
 
 	}
@@ -285,7 +285,7 @@ function crearModal1(num) {
 
 	if (num == 8) {
 		$('.text-corbatines').removeClass('d-none'); $('.div-corbatines').removeClass('d-none');
-		$('#img-modal1').attr('src', '../assets/img/img' +  num + '.gif');
+		$('#img-modal1').attr('src', 'assets/img/img' +  num + '.gif');
 		cambioBoton = 8;
 	} else if (num == 10) {
 		$('.text-seguir').removeClass('d-none'); $('.div-seguir').removeClass('d-none');
