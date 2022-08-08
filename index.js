@@ -1,4 +1,33 @@
+$(document).ready(function() {
+    
 
+    document.body.addEventListener('keydown', function(event)
+    {
+            const key = event.key;
+            switch (key) {
+                
+                case "ArrowLeft":
+                    if (contador_flecha == 0) {
+                        console.log("no es posible");
+                    } else {
+                        slideIzq(contador_flecha);
+                    }
+                    
+                    break;
+                case "ArrowRight":
+                    if (contador_flecha == 7) {
+                        console.log("no es posible");
+                    } else {
+                        slideDer(contador_flecha);
+                    }
+                    
+                    break;
+                
+            }
+    });
+
+
+});
 
 var contador_flecha = 0;
 function slideDer() {

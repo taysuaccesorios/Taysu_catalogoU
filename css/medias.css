@@ -1,0 +1,15 @@
+@media only screen and (min-width: 945px) and (max-width: 1600px) {
+    .posicion-boton {
+        margin-top: 33% !important;
+    }
+
+    .left {
+        margin-left: 55% !important;
+    }
+
+    .img-media {
+        width: 18% !important;
+    }
+
+}
+
