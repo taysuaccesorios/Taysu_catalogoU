@@ -140,12 +140,6 @@ var medida;
 var medidaComedores;
 var link1 = "https://api.whatsapp.com/send?phone=573054025529&"
 
-nameVendedor.addEventListener('change',
-function(){
-    var selectedOption = this.options[select.selectedIndex];
-    vendedor = selectedOption.text;
-});
-
 select.addEventListener('change',
 function(){
     var selectedOption = this.options[select.selectedIndex];
@@ -158,9 +152,17 @@ function(){
     medida = selectedOption.text;
 });
 
+nameVendedor.addEventListener('change',
+function(){
+    var selectedOption = this.options[nameVendedor.selectedIndex];
+    vendedor = selectedOption.text;
+});
+
 function getValorComedor() {
 	medidaComedores = $("#medidaP").val();
 }
+
+
 
 
 
